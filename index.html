@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <!--Favi Icon-->
+
+    <!--CDN Links-->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css"
+      integrity="sha512-6c4nX2tn5KbzeBJo9Ywpa0Gkt+mzCzJBrE1RB6fmpcsoN+b/w/euwIMuQKNyUoU/nToKN3a8SgNOtPrbW12fug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Custom Links-->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/responsive-style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
+    <!--navbar-->
+
+    <header class="header-wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#home">
+            <img src="images/logo.png" class="img-fluid logo" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!--<span class="navbar-toggler-icon"></span>-->
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cv">My CV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--Front-Banner-->
+
+    <section id="home" class="banner-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 order-lg-1 order-2 banner-content">
+            <h2 class="text-uppercase position-relative">Hello</h2>
+            <h1 class="text-uppercase">I am Ahmad Raza</h1>
+            <h5 class="text-uppercase">FrontEnd Developer</h5>
+            <div class="mt-5">
+              <a class="main-btn primary-btn" href="#contact">Hire Me</a>
+              <a class="main-btn secondary-btn ms-4" href="#cv" id="">Get CV</a>
+            </div>
+          </div>
+          <div class="col-lg-5 order-lg-2 order-1">
+            <div class="top-right-img">
+              <img src="images/home.png" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--About-->
+    <section class="about-wrapper" id="about">
+      <div class="container">
+        <div class="row align-item-center">
+          <div class="col-lg-7 mb-4 mb-lg-0">
+            <img src="images/about.png" class="img-fluid" alt="about-us" />
+          </div>
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <h3>Let's <br />Introduce about<br />myself</h3>
+            <p>
+              Hello, I'm Ahmad Raza, a Computer Science student specializing in front-end development.
+               With over a year of hands-on experience, I have honed my skills in creating dynamic 
+               and responsive web applications.
+            </p>
+            <p>
+              My expertise includes working with UI/UX design, enabling me to deliver user-friendly interfaces. 
+              I am passionate about leveraging technology to solve real-world problems and continuously improving
+               my skill set.  I look forward to contributing to innovative projects and furthering my career in web development.
+            </p>
+            <a href="#cv" class="main-btn secondary-btn mt-4">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Services-->
+
+    <section id="services" class="Services-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-5">
+            <h2>SERVICE OFFER</h2>
+            <p>
+              I offer front-end development services,in the <b>FIGMA</b> and <b>UI/UX design</b>.
+               My goal is to create responsive, user-friendly web applications tailored to your needs.<br
+                class="d-none d-lg-block"
+              />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              excepturi
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="images/services-img/mouse.webp" alt="" />
+              </div>
+              <h5 class="text-uppercase mt-4 mb-3">Web Development</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                perspiciatis ex fugit
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="images/services-img/ui-ux.webp" alt="" />
+              </div>
+              <h5 class="text-uppercase mt-4 mb-3">Graphic Design</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                perspiciatis ex fugit
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="images/services-img/website.webp" alt="" />
+              </div>
+              <h5 class="text-uppercase mt-4 mb-3">Web Design</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                perspiciatis ex fugit
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card rounded-0 border-0 text-center py-5 px-3">
+              <div>
+                <img src="images/services-img/seo.webp" alt="" />
+              </div>
+              <h5 class="text-uppercase mt-4 mb-3">OFF PAGE SEO</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                perspiciatis ex fugit
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+                        <!--GALLERY-->
+
+<section id="gallery" class="blog-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center mb-5">
+        <h2>GALLERY</h2>
+        <p>
+          Explore the world and share your experiences with my blog! Dive into stories, insights, .<br
+            class="d-none d-lg-block"
+          />
+          and tips from around the globe as we journey through captivating places and inspiring moments together
+        </p>
+        <div class="container">
+<div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="images/website/ss-1.PNG"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+
+    <img
+      src="images/website/ss-8.PNG"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="images/website/ss-9.PNG"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Mountains in the Clouds"
+    />
+
+    <img
+      src="images/website/ss-2.PNG"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="images/website/ss-3.PNG"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="images/website/SS-10.PNG"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+  
+</div>
+
+<!-- Gallery -->
+        </div>
+      </div>
+      </div>
+  </div>
+</section>
+
+
+<!--CV-->
+
+<section id="cv" class="cv-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center mb-5">
+        <h2>My CV</h2>
+        <p class="my-3">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
+          officiis impedit accusantium repellat id corporis<br
+            class="d-none d-lg-block"
+          />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          excepturi
+        </p>
+        <div class="container">
+          <!--<embed src="images/new web cv.pdf.pdf" type="application/pdf" class="pdf-1"> -->
+            <object data="new web cv.pdf.pdf" type="application/pdf" class="pdf-1"></object>
+        </div>
+
+<!--Footer-->
+
+<section class="footer-wrapper mt-3 mt-md-0" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 newsletter text-center px-4">
+        <div>
+          <h3 class="text-white">Get update from anywhere</h3>
+          <p class="text-white">For Furture Information Please Contact Me 24/7</p>
+
+          <form action="" class="row g-3 justify-content-center mt-4">
+            <div class="col col-lg-4 col-sm-6">
+              <input type="email" class="form-control" placeholder="Email Address">
+            </div>
+            <div class="col col-auto">
+              <button class="main-btn primary-btn border-white mb-3" type="submit">Get Started</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row align-item-center justify-content-center">
+      <div class="col-12 text-center">
+        <div class="footer-logo mb-3 mb-md-0" id="home">
+          <a href="#home"><img src="images/logo.png" alt="footer-logo" class="img-fluid"></a>
+        </div>
+        <div class="my-4 social-icons">
+          <h1>0309-7271373</h1>
+          <h5>Follow Me</h5>
+          <ul class="list-unstyled d-flex justify-content-center align-item-center">
+            <li><a href="https://www.facebook.com/profile.php?id=100055764162211" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/ahmad67razaa/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/ahmaddeveloper/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="http://www.youtube.com/@pixxelflame8569" target="_blank"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-8 col-sm-12">
+        <p class="footer-text text-center my-2">Copyright &copy; 2024 All rights reserved | This template
+          is made with <i class="far fa-heart"></i> by <a id="home" href="#">Portfolio Website</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

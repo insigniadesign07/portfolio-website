@@ -1,0 +1,23 @@
+@media (max-width:775px){
+    h1{
+        color: blueviolet;
+        font-size: 2.375rem;
+    }
+}
+
+@media (max-width:990px){
+    .logo{
+        position: fixed;       
+    }
+  
+}
+@media(max-width:990px){
+    .blog-wrapper .blog-details{
+        top: 0.3125rem;
+        bottom: 0.3125rem;
+        right: 0.3125rem;
+        left: 0.3125rem;
+    }
+}
+
+
